@@ -28,5 +28,5 @@ jobs:
         with:
           apiToken: ${{ secrets.gmaa0UCOAbtLQRfQ199_q2tY9FFE-Cvhr739wy5J }}          # ← обязательно!
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}        # ← обязательно!
-          command: pages deploy ./public --project-name=fdsjaifvijsfv --commit-dirty
+          command: pages deploy ./public --project-name=phish-pages-2026 --commit-dirty
           # gitHubToken: ${{ secrets.GITHUB_TOKEN }}             # раскомментируй, если хочешь preview-деплои и статусы в PR
