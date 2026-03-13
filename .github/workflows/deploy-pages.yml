@@ -27,6 +27,6 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.gmaa0UCOAbtLQRfQ199_q2tY9FFE-Cvhr739wy5J }}          # ← обязательно!
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}        # ← обязательно!
+          accountId: ${{ secrets.9a9ebea0fd6f0ae3319e45bf9a6a43c2 }}        # ← обязательно!
           command: pages deploy ./public --project-name=phish-pages-2026 --commit-dirty
           # gitHubToken: ${{ secrets.GITHUB_TOKEN }}             # раскомментируй, если хочешь preview-деплои и статусы в PR
